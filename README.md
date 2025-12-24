@@ -33,7 +33,6 @@ To start do ./todo.sh
     git clone github.com
     cd BASH-TODO-APP
     ```
-
 2.Make the script executable:
     ```bash
     chmod +x todo.sh
@@ -48,7 +47,4 @@ To start do ./todo.sh
 
 ## Usage
 
-Run the script by executing the file directly (if in the local directory):
-
-```bash
-./todo.sh [command] [arguments]
+Run the script by executing the file directly
