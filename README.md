@@ -36,7 +36,6 @@ To start do ./todo.sh
     chmod +x todo.sh
 3.(Optional) Add to your PATH:
     For easy access from anywhere in your terminal, move the script to a directory included in your system's `PATH` (e.g., `/usr/local/bin`):
-    ```bash
     sudo mv todo.sh /usr/local/bin/todo
     Now you can run the app just by typing `todo` anywhere.
 
