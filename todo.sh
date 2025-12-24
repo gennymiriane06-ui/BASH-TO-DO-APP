@@ -13,7 +13,7 @@ fi
 
 if [ "$1" = "list" ]; then
     number=1
-    while read line; do
+    while read -r line; do
         echo "$number. $line"
         number=$((number+1))
     done < "$FILE"
@@ -21,9 +21,8 @@ fi
 
 if [ "$1" = "del" ]; then
     number=1
-    > new.txt
-
-    while read line; do
+    
+    while read -r line; do
         if [ "$number" != "$2" ]; then
             echo "$line" >> new.txt
         fi
