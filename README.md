@@ -32,7 +32,6 @@ To start do ./todo.sh
     ```bash
     git clone github.com
     cd BASH-TODO-APP
-    
 2.Make the script executable:
     ```bash
     chmod +x todo.sh
