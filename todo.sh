@@ -26,7 +26,7 @@ case "$1" in
             exit 1
         fi
 
-        > new.txt
+        : > new.txt
         number=1
 
         while read -r line; do
